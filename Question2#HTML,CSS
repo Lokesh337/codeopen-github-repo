@@ -1,0 +1,67 @@
+/*
+
+- Create a card UI similar to the image using HTML and CSS
+- It doesn't need to be an exact replica
+- You can use any name, photo, URL
+
+*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 250px;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+        .card p {
+            color: gray;
+            margin: 5px 0;
+        }
+        .card a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+        <h2>John Doe</h2>
+        <p>Software Engineer</p>
+        <a href="#">View Profile</a>
+    </div>
+
+</body>
+</html>
+
